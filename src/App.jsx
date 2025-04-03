@@ -21,7 +21,7 @@ function App() {
           <Routes>
             <Route path={baseUrl + ""} element={<MainPage />}/>
             <Route path={baseUrl + "404"} element={<NotFound />} />
-            <Route path={baseUrl + "*"} element={<Navigate replace to={baseUrl + "404"} />} />
+            <Route path="*" element={<Navigate replace to={baseUrl + "404"} />} />
           </Routes>
         </PageContent>
         <Footer/>
