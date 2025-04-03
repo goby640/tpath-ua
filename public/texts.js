@@ -20,9 +20,9 @@ export default {
     FOOTER_LICENSE_LINK_TEXT: "Creative Commons Attribution-NonCommercial 4.0 License",
     FOOTER_LICENSE_LINK_URL: "https://creativecommons.org/licenses/by-nc/4.0/deed.uk",
     FOOTER_TERMS_OF_USE_TEXT: "Умовами використання",
-    FOOTER_TERMS_OF_USE_URL: baseUrl + "terms",
+    FOOTER_TERMS_OF_USE_URL: baseUrl + "#/terms",
     FOOTER_PRIVACY_POLICY_TEXT: "Політикою конфіденційності",
-    FOOTER_PRIVACY_POLICY_URL: baseUrl + "privacy",
+    FOOTER_PRIVACY_POLICY_URL: baseUrl + "#/privacy",
     FOOTER_CONTACT_SHORT_TEMPLATE: `Зворотній зв'язок: <a href="mailto:{{email}}">{{email}}</a>`,
     FOOTER_CONTACT_LONG_TEMPLATE: `Знайшли невірну інформацію, неточності чи неповні дані? Напишіть листа на <a href="mailto:{{email}}">{{email}}</a>!
     Доповнення та виправлення інформації дуже заохочується!
