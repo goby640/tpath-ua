@@ -10,7 +10,8 @@ import PageContent from './components/PageContent';
 import NotFound from './subpages/NotFound';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+  const baseUrl = import.meta.env.VITE_BASE_URL;
 
   return (
     <PageLayout>
@@ -18,9 +19,9 @@ function App() {
         <Header/>
         <PageContent>
           <Routes>
-            <Route path="/" element={<MainPage />}/>
-            <Route path="/404" element={<NotFound />} />
-            <Route path="*" element={<Navigate replace to="/404" />} />
+            <Route path={baseUrl + ""} element={<MainPage />}/>
+            <Route path={baseUrl + "404"} element={<NotFound />} />
+            <Route path={baseUrl + "*"} element={<Navigate replace to={baseUrl + "404"} />} />
           </Routes>
         </PageContent>
         <Footer/>
