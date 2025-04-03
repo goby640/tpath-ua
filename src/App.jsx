@@ -15,7 +15,7 @@ function App() {
 
   return (
     <PageLayout>
-      <Router baseUrl={import.meta.env.VITE_BASE_URL}>
+      <Router baseUrl={process.env.VITE_BASE_URL}>
         <Header/>
         <PageContent>
           <Routes>
