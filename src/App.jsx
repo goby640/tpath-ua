@@ -19,10 +19,10 @@ function App() {
         <Header/>
         <PageContent>
           <Routes>
-            <Route path={`${baseUrl}/`} index element={<MainPage />}/>
-            <Route path={`${baseUrl}/404`} element={<NotFound />} />
-            <Route path="/404" element={<NotFound />} />
-            <Route path="*" element={<Navigate replace to={`${baseUrl}/404`} />} />
+            <Route path={`${baseUrl}`} index element={<MainPage />}/>
+            <Route path={`${baseUrl}404`} element={<NotFound />} />
+            <Route path="404" element={<NotFound />} />
+            <Route path="*" element={<Navigate replace to={`${baseUrl}404`} />} />
           </Routes>
         </PageContent>
         <Footer/>
