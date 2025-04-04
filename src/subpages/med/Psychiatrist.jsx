@@ -6,12 +6,14 @@ const Psychiatrist = () => {
     const baseUrl = import.meta.env.VITE_BASE_URL;
     return (
         <BackableContentPage content={
-            <div>
-                <div className="display-linebreak mb-2">
-                    {texts.PSYCHIATRIST_TEXT}
-                </div>
-                <div className="flex flex-col md:flex-row w-full items-center justify-center">
-                    <div className="grid grid-cols-1 md:grid-cols-2 p-2 gap-2 w-full md:w-2/5">
+            <>
+                <div className="display-linebreak mb-2"
+                    dangerouslySetInnerHTML={{
+                        __html: texts.PSYCHIATRIST_TEXT
+                    }}
+                />
+                <div className="flex flex-col w-full items-center justify-center">
+                    <div className="grid grid-cols-2 md:grid-cols-4 p-2 gap-2 w-full ">
                         <ZoomableImage thumbnailUrl="/thumbnails/test_thumbnail.png"
                             fullUrl="/images/test.png"
                             altText="Test image"/>
@@ -25,12 +27,23 @@ const Psychiatrist = () => {
                             fullUrl="/images/test.png"
                             altText="Test image"/>
                     </div>
-                    <img className="w-full md:w-1/5 md:max-w-1/5 md:rotate-270" src={baseUrl + "/arrow.png"}/>
-                    <div className="flex flex-col md:flex-row w-full md:w-2/5">
-
+                    <img className="w-1/3 md:w-1/5 md:max-w-1/5" src={baseUrl + "/arrow.png"}/>
+                    <div className="grid grid-cols-2 md:grid-cols-4 p-2 gap-2 w-full ">
+                        <ZoomableImage thumbnailUrl="/thumbnails/test_thumbnail.png"
+                            fullUrl="/images/test.png"
+                            altText="Test image"/>
+                        <ZoomableImage thumbnailUrl="/thumbnails/test_thumbnail.png"
+                            fullUrl="/images/test.png"
+                            altText="Test image"/>
+                        <ZoomableImage thumbnailUrl="/thumbnails/test_thumbnail.png"
+                            fullUrl="/images/test.png"
+                            altText="Test image"/>
+                        <ZoomableImage thumbnailUrl="/thumbnails/test_thumbnail.png"
+                            fullUrl="/images/test.png"
+                            altText="Test image"/>
                     </div>
                 </div>
-            </div>
+            </>
         } />
     );
 };
