@@ -25,7 +25,7 @@ const Footer = () => {
         })
     return (
         <div className="inset-x-0 flex flex-col md:flex-row-reverse w-full items-center justify-between">
-            <div className="justify-self-center text-center text-sm display-linebreak md:pb-0 pb-3"
+            <div className="justify-self-center text-center text-sm display-linebreak md:pb-0 pb-3 pr-3"
                 dangerouslySetInnerHTML={{
                     __html: footerContactFormatted
                 }}

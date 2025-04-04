@@ -1,6 +1,6 @@
 const PageContent = ({ children }) => {
     return (
-        <div className="flex-1 p-4">
+        <div className="flex flex-1 p-4 justify-center w-full">
             {children}
         </div>
     );
