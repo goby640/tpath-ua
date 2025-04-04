@@ -4,8 +4,7 @@ const Footer = () => {
     const footerCopyrightFormatted = texts.formatStr(
         texts.FOOTER_COPYRIGHT_TEXT,
         {
-            author: texts.CONTACT_EMAIL,
-            email: texts.CONTACT_EMAIL,
+            author: texts.AUTHOR_NAME,
             year: new Date().getFullYear()
         });
     const footerContactFormatted = texts.formatStr(
@@ -19,9 +18,9 @@ const Footer = () => {
             license: texts.FOOTER_LICENSE_LINK_TEXT,
             license_link: texts.FOOTER_LICENSE_LINK_URL,
             terms: texts.FOOTER_TERMS_OF_USE_TEXT,
-            terms_link: texts.FOOTER_TERMS_OF_USE_URL,
+            terms_link: texts.TERMS_OF_USE_URL,
             privacy: texts.FOOTER_PRIVACY_POLICY_TEXT,
-            privacy_link: texts.FOOTER_PRIVACY_POLICY_URL
+            privacy_link: texts.PRIVACY_POLICY_URL
         })
     return (
         <div className="inset-x-0 flex flex-col md:flex-row-reverse w-full items-center justify-between">

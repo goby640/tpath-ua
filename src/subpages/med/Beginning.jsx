@@ -1,10 +1,10 @@
 import texts from "../../../public/texts";
 import TextContentPage from "../../components/TextContentPage";
 
-const Endocrynologist = () => {
+const Beginning = () => {
     return (
-        <TextContentPage text={'STUB'} vars={{}} />
+        <TextContentPage text={texts.BEGINNING_TEXT} vars={{}} />
     );
 };
 
-export default Endocrynologist;
+export default Beginning;
