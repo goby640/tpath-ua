@@ -13,6 +13,7 @@ import Beginning from './subpages/med/Beginning';
 import Psychiatrist from './subpages/med/Psychiatrist';
 import Endocrynologist from './subpages/med/Endocrinologist';
 import TextContentPage from './components/TextContentPage';
+import Maintenance from './subpages/Maintenance';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,7 +24,9 @@ function App() {
         <Header/>
         <PageContent>
           <Routes>
-            <Route index exact path="/" element={<MainPage />}/>
+            <Route index exact path="/" element={<Maintenance />}/>
+
+            <Route index exact path="/main" element={<MainPage />}/>
 
             <Route exact path="/beginning" element={<Beginning />}/>
             <Route exact path="/psychiatrist" element={<Psychiatrist />}/>

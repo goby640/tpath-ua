@@ -8,7 +8,7 @@ const BackableContentPage = ({content}) => {
             </div>
             <a href="#/">
                 <button className="w-full py-3 mb-4 rounded-lg">
-                    {texts.BACK_BUTTON_TEXT}
+                    {texts.HOME_BUTTON_TEXT}
                 </button>
             </a>
         </div>
