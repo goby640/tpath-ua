@@ -30,6 +30,7 @@ export default {
     Саме Ваш внесок може стати критичним для когось, хто проходить цей шлях.`,
 
     NOT_FOUND_TEXT: "Сторінку не знайдено",
+    MAINTENANCE_TEXT: "Ведуться технічні роботи",
 
     TERMS_OF_USE_LABEL: "Умови використання",
 
@@ -43,7 +44,7 @@ export default {
     MAIN_PSYCHIATRIST_BUTTON: "2. Психіатр",
     MAIN_ENDOCRYNOLOGIST_BUTTON: "3. Ендокринолог",
 
-    BACK_BUTTON_TEXT: "Назад",
+    HOME_BUTTON_TEXT: "На головну",
 
     TEST_TEXT: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         
