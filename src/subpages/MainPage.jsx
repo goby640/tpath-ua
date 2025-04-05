@@ -10,7 +10,7 @@ const MainPage = () => {
     );
 
     return (
-            <div className="w-full h-fit max-h-fit max-w-4xl p-6">
+            <div className="w-full h-fit max-h-fit max-w-3xl p-4">
                 <div className="text-left display-linebreak p-4 mb-2"
                     dangerouslySetInnerHTML={{
                         __html: upperText

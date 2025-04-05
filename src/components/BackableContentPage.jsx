@@ -2,7 +2,7 @@ import texts from "../../public/texts";
 
 const BackableContentPage = ({content}) => {
     return (
-        <div className=" w-full h-fit max-h-fit max-w-4xl p-6">
+        <div className=" w-full h-fit max-h-fit max-w-4xl">
             <div className="p-4 mb-2">
                 {content}
             </div>
