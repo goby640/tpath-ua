@@ -1,4 +1,5 @@
 const Test = () => {
+    const baseUrl = import.meta.env.VITE_BASE_URL;
     return (
         <>
             <div className="flex flex-col w-full items-center justify-center">
