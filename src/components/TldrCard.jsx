@@ -1,7 +1,7 @@
 const TldrCard = ({card}) => {
     const baseUrl = import.meta.env.VITE_BASE_URL;
     return (
-        <div className="p-4 mb-8 grid grid-cols-1 gap-2 md:grid-cols-2 w-full shadow-lg rounded-lg bg-white/70 text-black justify-stretch">
+        <div className="p-4 mb-8 grid grid-cols-1 gap-4 md:grid-cols-2 w-full shadow-lg rounded-lg bg-white/70 text-black justify-stretch">
             <div className="w-full flex flex-rows-2 items-center">
                 <div className="w-1/10 max-w-1/10 min-w-1/10 mr-2 relative aspect-square shadow-lg rounded-lg bg-white/50 overflow-hidden">
                     <img className="p-1"
