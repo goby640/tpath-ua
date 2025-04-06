@@ -5,12 +5,17 @@ const Psychiatrist = () => {
     const baseUrl = import.meta.env.VITE_BASE_URL;
     return (
         <CardContentPage text={texts.PSYCHIATRIST_TEXT}
-            vars={{}}
+            vars={{
+                "doc1": texts.DOC_1_URL
+            }}
             card={
                 {
                     "input": [
                         texts.PSYCHIATRIST_INPUT_1, 
-                        texts.PSYCHIATRIST_INPUT_2
+                        texts.PSYCHIATRIST_INPUT_2,
+                        texts.PSYCHIATRIST_INPUT_3,
+                        texts.PSYCHIATRIST_INPUT_4,
+                        texts.PSYCHIATRIST_INPUT_5,
                     ],
                     "output": [
                         texts.PSYCHIATRIST_OUTPUT_1

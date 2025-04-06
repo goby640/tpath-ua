@@ -13,9 +13,20 @@ const Beginning = () => {
             }
         }
     });
+
+    const beginningText = texts.formatStr(
+        texts.BEGINNING_TEXT,
+        {
+            "doc1": texts.DOC_1_URL,
+            "doc2": texts.DOC_2_URL,
+            "doc3": texts.DOC_3_URL,
+            "source1": texts.SOURCE_1_URL,
+            "source2": texts.SOURCE_2_URL
+        }
+    );
     
     return (
-        <TextContentPage text={texts.BEGINNING_TEXT} vars={{}} />
+        <TextContentPage text={beginningText} vars={{}} />
     );
 };
 
