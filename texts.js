@@ -11,7 +11,7 @@ export default {
     AUTHOR_NAME: "Goby640",
 
     HEADER_NAME: "Трансгендерний перехід в Україні",
-    HEADER_TEXT: `Про документально-бюрократичні процеси, часті питання та інше.`,
+    HEADER_TEXT: ``,
 
     TERMS_OF_USE_URL: baseUrl + "#/terms",
     PRIVACY_POLICY_URL: baseUrl + "#/privacy",
