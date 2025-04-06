@@ -31,6 +31,16 @@ const MainPage = () => {
                         {texts.MAIN_ENDOCRYNOLOGIST_BUTTON}
                     </button>
                 </a>
+                <a href="#/surgeries">
+                    <button className="w-full py-3 mb-4 rounded-lg">
+                        {texts.MAIN_SURGERIES_BUTTON}
+                    </button>
+                </a>
+                <a href="#/gp">
+                    <button className="w-full py-3 mb-4 rounded-lg">
+                        {texts.MAIN_GP_BUTTON}
+                    </button>
+                </a>
             </div>
     );
 };

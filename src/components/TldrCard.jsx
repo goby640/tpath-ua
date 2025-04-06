@@ -36,7 +36,9 @@ const TldrCard = ({card}) => {
                         src={baseUrl + "/time.png"}
                         alt="time"/>
                 </div>
-                <p>{card.time}</p>
+                <div className="text-left display-linebreak">
+                    {card.time}
+                </div>
             </div>
             <div className="w-full flex flex-rows-2 items-center">
                 <div className="self-start mt-1 w-1/10 max-w-1/10 min-w-1/10 mr-4 relative aspect-square shadow-lg rounded-lg bg-white/50 overflow-hidden">
@@ -44,7 +46,9 @@ const TldrCard = ({card}) => {
                         src={baseUrl + "/price.png"}
                         alt="price"/>
                 </div>
-                <p>{card.price}</p>
+                <div className="text-left display-linebreak">
+                    {card.price}
+                </div>
             </div>
         </div>
     );
