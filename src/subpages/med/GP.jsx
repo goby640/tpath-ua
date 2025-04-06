@@ -5,7 +5,8 @@ const GP = () => {
     return (
         <CardContentPage text={texts.GP_TEXT}
             vars={{
-                "doc2": texts.DOC_2_URL
+                "doc2": texts.DOC_2_URL,
+                "notary_link": texts.NOTARY_URL
             }}
             card={
                 {

@@ -14,6 +14,7 @@ import Psychiatrist from './subpages/med/Psychiatrist';
 import Endocrynologist from './subpages/med/Endocrinologist';
 import Surgeries from './subpages/med/Surgeries';
 import GP from './subpages/med/GP';
+import Notary from './subpages/docs/Notary';
 import TextContentPage from './components/TextContentPage';
 import Maintenance from './subpages/Maintenance';
 
@@ -35,6 +36,7 @@ function App() {
             <Route exact path="/endocrynologist" element={<Endocrynologist />}/>
             <Route exact path="/surgeries" element={<Surgeries />}/>
             <Route exact path="/gp" element={<GP />}/>
+            <Route exact path="/notary" element={<Notary />}/>
 
             <Route exact path="/privacy" element={<TextContentPage text={texts.PRIVACY_POLICY_FULL_TEXT} vars={{}} />}/>
             <Route exact path="/terms" element={<TextContentPage text={texts.TERMS_OF_USE_FULL_TEXT} vars={{}} />}/>

@@ -41,6 +41,11 @@ const MainPage = () => {
                         {texts.MAIN_GP_BUTTON}
                     </button>
                 </a>
+                <a href="#/notary">
+                    <button className="w-full py-3 mb-4 rounded-lg">
+                        {texts.MAIN_NOTARY_BUTTON}
+                    </button>
+                </a>
             </div>
     );
 };

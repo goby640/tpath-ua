@@ -21,7 +21,9 @@ const Beginning = () => {
             "doc2": texts.DOC_2_URL,
             "doc3": texts.DOC_3_URL,
             "source1": texts.SOURCE_1_URL,
-            "source2": texts.SOURCE_2_URL
+            "source2": texts.SOURCE_2_URL,
+            "source3": texts.SOURCE_3_URL,
+            "source4": texts.SOURCE_4_URL
         }
     );
     
