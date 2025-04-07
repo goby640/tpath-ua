@@ -2,7 +2,6 @@ import texts from "../../../public/texts";
 import CardContentPage from "../../components/CardContentPage";
 
 const Psychiatrist = () => {
-    const baseUrl = import.meta.env.VITE_BASE_URL;
     return (
         <CardContentPage text={texts.PSYCHIATRIST_TEXT}
             vars={{
