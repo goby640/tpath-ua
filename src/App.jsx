@@ -37,6 +37,20 @@ function App() {
             <Route exact path="/surgeries" element={<Surgeries />}/>
             <Route exact path="/gp" element={<GP />}/>
             <Route exact path="/notary" element={<Notary />}/>
+            <Route exact path="/birthcert" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/passports" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/taxcode" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/addressreg" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/entrepreneurship" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/banks" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/employmentbook" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/diplomas" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/registers" element={<TextContentPage text="TBD; Центрі зайнятості (оновлено автоматично? синхронізовано з ПФУ? я не був там зареєстрований раніше? хто зна), Пенсійному фонді, Фонді соціального страхування (ліквідовано в 2023, повноваження передані до ПФУ https://zakon.rada.gov.ua/laws/show/2620-20#n2 сорц: https://www.donbasssos.org/fssu-likviduvaly-kudy-zvertatysia/), Державному реєстрі виборців (наразі зміни не вносяться https://www.drv.gov.ua/portal/cm?option=ext_static_page&ppg_id=110&pmn_id=100 але їх можна буде внести онлайн на сайті)" vars={{}} />}/>
+            <Route exact path="/healthdb" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/driverslicense" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/ownershipdocs" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/contracts" element={<TextContentPage text="TBD; з операторами, кредитні, депозитні, ФОП, трудові, комуналка, та з іншими надавачами послуг і не тільки" vars={{}} />}/>
+            <Route exact path="/militaryoffice" element={<TextContentPage text="TBD" vars={{}} />}/>
 
             <Route exact path="/privacy" element={<TextContentPage text={texts.PRIVACY_POLICY_FULL_TEXT} vars={{}} />}/>
             <Route exact path="/terms" element={<TextContentPage text={texts.TERMS_OF_USE_FULL_TEXT} vars={{}} />}/>

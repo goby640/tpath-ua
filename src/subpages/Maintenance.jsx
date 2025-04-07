@@ -1,5 +1,4 @@
 import texts from "../../public/texts";
-import BackableContentPage from "../components/BackableContentPage";
 
 const Maintenance = () => {
     const baseUrl = import.meta.env.VITE_BASE_URL;
