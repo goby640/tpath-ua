@@ -1,8 +1,6 @@
 import React from 'react';
-import { useState } from 'react'
 import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import './App.css'
-import texts from '../public/texts';
 import PageLayout from './components/PageLayout';
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -16,10 +14,10 @@ import Surgeries from './subpages/med/Surgeries';
 import GP from './subpages/med/GP';
 import Notary from './subpages/docs/Notary';
 import TextContentPage from './components/TextContentPage';
+import TermsOfUse from './subpages/TermsOfUse';
+import PrivacyPolicy from './subpages/PrivacyPolicy';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <PageLayout>
       <Router baseUrl={import.meta.env.VITE_BASE_URL}>
@@ -49,8 +47,8 @@ function App() {
             <Route exact path="/contracts" element={<TextContentPage text="TBD; з операторами, кредитні, депозитні, ФОП, трудові, комуналка, та з іншими надавачами послуг і не тільки" vars={{}} />}/>
             <Route exact path="/militaryoffice" element={<TextContentPage text="TBD" vars={{}} />}/>
 
-            <Route exact path="/privacy" element={<TextContentPage text={texts.PRIVACY_POLICY_FULL_TEXT} vars={{}} />}/>
-            <Route exact path="/terms" element={<TextContentPage text={texts.TERMS_OF_USE_FULL_TEXT} vars={{}} />}/>
+            <Route exact path="/privacy" element={<PrivacyPolicy />}/>
+            <Route exact path="/terms" element={<TermsOfUse />}/>
 
             <Route exact path="/404" element={<NotFound />} />
             <Route path="/*" element={<Navigate replace to="/404" />} />

@@ -15,11 +15,11 @@ const Footer = () => {
     const footerLicenseFormatted = texts.formatStr(
         texts.FOOTER_LICENSE_TEMPLATE_TEXT,
         {
-            license: texts.FOOTER_LICENSE_LINK_TEXT,
-            license_link: texts.FOOTER_LICENSE_LINK_URL,
+            license: texts.LICENSE_LINK_TEXT,
+            license_link: texts.LICENSE_LINK_URL,
             terms: texts.FOOTER_TERMS_OF_USE_TEXT,
             terms_link: texts.TERMS_OF_USE_URL,
-            privacy: texts.FOOTER_PRIVACY_POLICY_TEXT,
+            privacy: texts.PRIVACY_POLICY_TEXT,
             privacy_link: texts.PRIVACY_POLICY_URL
         })
     return (
