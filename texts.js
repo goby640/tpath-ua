@@ -16,15 +16,16 @@ export default {
     TERMS_OF_USE_URL: baseUrl + "#/terms",
     PRIVACY_POLICY_URL: baseUrl + "#/privacy",
     NOTARY_URL: baseUrl + "#/notary",
+    
+    LICENSE_LINK_TEXT: "Creative Commons Attribution-NonCommercial 4.0 License",
+    LICENSE_LINK_URL: "https://creativecommons.org/licenses/by-nc/4.0/deed.uk",
 
     FOOTER_COPYRIGHT_TEXT: `© {{author}}, {{year}}`,
     FOOTER_LICENSE_TEMPLATE_TEXT: `Текст доступний на умовах ліцензії <a href="{{license_link}}">{{license}}</a>;
     також можуть діяти додаткові умови.
     Використовуючи цей сайт Ви погоджуєтесь із <a href="{{terms_link}}">{{terms}}</a> та <a href="{{privacy_link}}">{{privacy}}</a>.`,
-    FOOTER_LICENSE_LINK_TEXT: "Creative Commons Attribution-NonCommercial 4.0 License",
-    FOOTER_LICENSE_LINK_URL: "https://creativecommons.org/licenses/by-nc/4.0/deed.uk",
     FOOTER_TERMS_OF_USE_TEXT: "Умовами використання",
-    FOOTER_PRIVACY_POLICY_TEXT: "Політикою конфіденційності",
+    PRIVACY_POLICY_TEXT: "Політикою конфіденційності",
     FOOTER_CONTACT_SHORT_TEMPLATE: `Зворотній зв'язок: <a href="mailto:{{email}}">{{email}}</a>`,
     FOOTER_CONTACT_LONG_TEMPLATE: `Знайшли невірну інформацію, неточності чи неповні дані? Напишіть листа на <a href="mailto:{{email}}">{{email}}</a>!
     Доповнення та виправлення інформації дуже заохочується!
@@ -67,16 +68,6 @@ export default {
     MAIN_MILITARY_OFFICE_BUTTON: "20. ТЦК та СП",
 
     HOME_BUTTON_TEXT: "На головну",
-
-    TEST_TEXT: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        
-    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-    
-    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-    
-    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-    
-    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?`,
 
     BEGINNING_TEXT: `Отож, по-перше, може бути дуже корисним знайти <b>ком'юніті</b> людей, які проходять, проходили чи будуть проходити такий самий шлях, що і Ви. Пошукайте контакти місцевих організацій, що надають підтримку і допомогу ЛГБТ+ людям.
 
@@ -308,9 +299,44 @@ export default {
     NOTARY_TIME: ">1 години",
     NOTARY_PRICE: "від 300 до 500 за копію",
 
-    TERMS_OF_USE_FULL_TEXT: `TBD
-    
-    Уся інформація, що представлена на цьому ресурсі, не є медичними та/або юридичними порадами та/або будь-яким іншим видом порад. Дані збирались з досвіду живих людей, за можливості доповнювались посиланням на чинне законодавство, але все ще можуть бути не повними чи не точними. Автори, а також люди, які доповнювали інформацію на сайті, не несуть жодної відповідальності за дії, які ...............`,
+    TERMS_OF_USE_FULL_TEXT: `<div class="text-3xl font-bold">Умови використання</div>
+    <ul class="list-decimal font-bold">
+    <li class="ml-6 pl-4 text-lg">Інформаційна мета</li>
+    <p class="font-normal">Уся інформація, що розміщена на цьому сайті, надається виключно з ознайомчою метою. Вона не є медичною, юридичною, чи будь-якою іншою професійною порадою, а також не є заміною для професійної медичної чи юридичної консультації.</p>
 
-    PRIVACY_POLICY_FULL_TEXT: `TBD`,
+    <li class="ml-6 pl-4 text-lg">Обмеження відповідальності</li>
+    <p class="font-normal">Хоча ми прагнемо надавати точну та актуальну інформацію, ми не гарантуємо її повноту, достовірність чи відповідність чинному законодавству.
+
+    Автори, редактори та інші учасники, які брали участь у створенні або доповненні матеріалів на цьому сайті, не несуть жодної відповідальності за будь-які наслідки, що можуть виникнути в результаті використання цієї інформації або неможливості використання цього сайту чи його вмісту, включаючи, але не обмежуючись, втратами, збитками (прямими або непрямими) або іншим негативним впливом.
+
+    Ми не несемо відповідальності за будь-які помилки чи неточності в інформації, наданій на сайті. Інформація на сайті надається лише для загальних ознайомлювальних цілей, і кожен користувач несе відповідальність за перевірку її актуальності та точності перед застосуванням.</p>
+
+    <li class="ml-6 pl-4 text-lg">Використання інформації</li>
+    <p class="font-normal">Користуючись цим сайтом, ви погоджуєтесь самостійно нести відповідальність за будь-які дії, які ви здійснюєте на основі отриманої тут інформації. Ми рекомендуємо завжди консультуватися з відповідними кваліфікованими фахівцями перед прийняттям будь-яких важливих рішень.</p>
+
+    <li class="ml-6 pl-4 text-lg">Ліцензія</li>
+    <p class="font-normal">Весь вміст сайту (тексти, зображення, графіка, відео тощо) є власністю авторів сайту і доступний за умовами ліцензії <a href={{license_link}}>{{license}}</a>. Це означає, що ви можете копіювати, поширювати та адаптувати матеріали із зазначенням авторства, але виключно в некомерційних цілях.</p>
+
+    <li class="ml-6 pl-4 text-lg">Політика конфіденційності</li>
+    <p class="font-normal">Для детальної інформації про обробку ваших персональних даних, будь ласка, ознайомтеся з нашою <a href={{privacy_link}}>{{privacy}}</a>.</p>
+
+    <li class="ml-6 pl-4 text-lg">Посилання на сторонні ресурси</li>
+    <p class="font-normal">Цей сайт може містити посилання на сторонні ресурси. Ми не несемо відповідальності за зміст або доступність таких ресурсів.</p>
+
+    <li class="ml-6 pl-4 text-lg">Інші умови</li>
+    <p class="font-normal">Ми залишаємо за собою право змінювати умови використання та політику конфіденційності в будь-який час. Оновлені умови будуть опубліковані на цьому сайті, і ваша подальша взаємодія з сайтом після публікації таких змін означатиме вашу згоду з ними. Зміни в умовах використання та політиці конфіденційності набирають чинності з моменту їх публікації на сайті. Рекомендуємо періодично перевіряти ці умови.
+    
+    Користувачі можуть зв’язуватися з нами через електронну пошту, зазначену на сайті, щоб повідомити про помилки або запропонувати доповнення до інформації. Надання такої інформації є добровільним, і якщо інше не було попередньо погоджено, користувач погоджується з тим, що надає таку інформацію без очікування на будь-яку компенсацію.</p>
+    </ul>`,
+
+    PRIVACY_POLICY_FULL_TEXT: `<div class="text-3xl font-bold">Політика конфіденційності</div>
+    Цей сайт не збирає жодної особистої інформації про користувачів.
+    
+    Ми не використовуємо реєстрацію, форми зворотного зв’язку, аналітичні сервіси чи сторонні рекламні мережі. Сайт може використовувати технічні cookie, необхідні для коректної роботи сайту (наприклад, для перемикання теми оформлення, збереження налаштувань користувача та інших функцій, що не впливають на конфіденційність).
+    
+    Користувачі можуть добровільно зв’язатися з нами за електронною поштою, зазначеною на сайті, щоб повідомити про помилки або запропонувати доповнення. У такому разі адреса відправника та зміст листа будуть використані виключно для обробки звернення. Електронна пошта обробляється через поштовий сервіс Gmail, на умовах конфіденційності, встановлених цією платформою.
+    
+    Ми залишаємо за собою право змінювати цю політику конфіденційності. Оновлена політика буде публікуватися на сайті, і ваші подальші взаємодії з сайтом після публікації змін означатимуть вашу згоду з оновленою політикою.
+    
+    Ми не збираємо, не зберігаємо та не обробляємо персональні дані користувачів без їхньої явної ініціативи та згоди. Усі зібрані дані використовуються лише для обробки звернень через електронну пошту та не зберігаються після завершення обробки.`,
 };
