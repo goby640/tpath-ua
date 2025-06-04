@@ -17,6 +17,7 @@ import BirthCertificate from './subpages/docs/BirthCertificate';
 import TextContentPage from './components/TextContentPage';
 import TermsOfUse from './subpages/TermsOfUse';
 import PrivacyPolicy from './subpages/PrivacyPolicy';
+import Maintenance from './subpages/Maintenance';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <Header/>
         <PageContent>
           <Routes>
-            <Route index exact path="/" element={<MainPage />}/>
+            <Route index exact path="/" element={ import.meta.env.VITE_MAINTENANCE === 'true' ? <Maintenance /> : <MainPage /> }/>
 
             <Route exact path="/beginning" element={<Beginning />}/>
             <Route exact path="/psychiatrist" element={<Psychiatrist />}/>
