@@ -5,7 +5,9 @@ const MainPage = () => {
         texts.MAIN_UPPER_TEXT,
         {
             terms_label: texts.TERMS_OF_USE_LABEL,
-            terms_url: texts.TERMS_OF_USE_URL
+            terms_url: texts.TERMS_OF_USE_URL,
+            doc4: texts.DOC_4_URL,
+            doc5: texts.DOC_5_URL
         }
     );
     const baseUrl = import.meta.env.VITE_BASE_URL;
@@ -47,8 +49,8 @@ const MainPage = () => {
                         {texts.MAIN_NOTARY_BUTTON}
                     </button>
                 </a>
-                <a href="#/birthcert" className="disabled">
-                    <button className="w-full py-3 mb-4 rounded-lg" disabled>
+                <a href="#/birthcert">
+                    <button className="w-full py-3 mb-4 rounded-lg">
                         {texts.MAIN_BIRTH_CERT_BUTTON}
                     </button>
                 </a>

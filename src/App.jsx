@@ -13,6 +13,7 @@ import Endocrynologist from './subpages/med/Endocrinologist';
 import Surgeries from './subpages/med/Surgeries';
 import GP from './subpages/med/GP';
 import Notary from './subpages/docs/Notary';
+import BirthCertificate from './subpages/docs/BirthCertificate';
 import TextContentPage from './components/TextContentPage';
 import TermsOfUse from './subpages/TermsOfUse';
 import PrivacyPolicy from './subpages/PrivacyPolicy';
@@ -32,7 +33,7 @@ function App() {
             <Route exact path="/surgeries" element={<Surgeries />}/>
             <Route exact path="/gp" element={<GP />}/>
             <Route exact path="/notary" element={<Notary />}/>
-            <Route exact path="/birthcert" element={<TextContentPage text="TBD" vars={{}} />}/>
+            <Route exact path="/birthcert" element={<BirthCertificate />}/>
             <Route exact path="/passports" element={<TextContentPage text="TBD" vars={{}} />}/>
             <Route exact path="/taxcode" element={<TextContentPage text="TBD" vars={{}} />}/>
             <Route exact path="/addressreg" element={<TextContentPage text="TBD" vars={{}} />}/>
